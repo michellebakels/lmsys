@@ -2,9 +2,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen p-8 bg-[#f0efeb]">
+    <div className="min-h-screen p-8 bg-[#f0efeb]" style={{ fontFamily: 'var(--font-norb-pen)' }}>
       <div
-        className="bg-[#f0efeb] h-[calc(100vh-4rem)] font-[family-name:var(--font-geist-sans)] border-7 border-black overflow-hidden"
+        className="bg-[#f0efeb] h-[calc(100vh-4rem)] border-7 border-black overflow-hidden"
         style={{
           position: "relative",
         }}
@@ -36,8 +36,8 @@ export default function Home() {
           height={400}
           className="absolute bottom-0 right-0 rotate-180 w-[300px] sm:w-[400px] h-auto"
         />
-        <main className="flex flex-col gap-[32px] items-center sm:items-start">
-          main
+        <main className="flex flex-col gap-[32px] items-center sm:items-start font-norbpen text-6xl">
+          Developer Meetup
         </main>
       </div>
     </div>
