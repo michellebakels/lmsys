@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { Pump } from "basehub/react-pump";
-import { draftMode } from "next/headers";
 
 export default function Home() {
   return (
