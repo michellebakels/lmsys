@@ -89,7 +89,7 @@ export default function Home() {
                   target="_blank"
                   className="text-5xl hover:underline cursor-pointer flex items-center gap-2"
                 >
-                  More Details <span className="text-3xl">→</span>
+                  Next Event <span className="text-3xl">→</span>
                 </a>
               </div>
             </div>
