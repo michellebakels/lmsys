@@ -44,7 +44,7 @@ export default function Home() {
                 alt="Decorative bubbles"
                 width={400}
                 height={400}
-                className="absolute top-0 left-0 w-[300px] sm:w-[400px] h-auto z-0"
+                className="absolute top-0 left-0 w-[300px] sm:w-[400px] h-auto z-0 pointer-events-none"
               />
               <div
                 className="absolute inset-0"
@@ -64,14 +64,14 @@ export default function Home() {
                 alt="Decorative bubbles"
                 width={400}
                 height={400}
-                className="absolute bottom-0 right-0 rotate-180 w-[300px] sm:w-[400px] h-auto z-0"
+                className="absolute bottom-0 right-0 rotate-180 w-[300px] sm:w-[400px] h-auto z-0 pointer-events-none"
               />
               <Image
                 src="/bubble-logo.svg"
                 alt="Let Me Show You Something"
                 width={200}
                 height={200}
-                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[200px] sm:w-[300px] h-auto z-20"
+                className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[200px] sm:w-[300px] h-auto z-20 pointer-events-none"
               />
               <main className="flex flex-col p-6 items-center sm:items-start font-norbpen text-5xl relative z-10">
                 <div className="flex flex-col">

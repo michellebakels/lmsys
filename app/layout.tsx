@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Toolbar } from "basehub/next-toolbar";
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -14,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 const norBPen = localFont({
-  src: '../public/fonts/NorBPen-BoldItalic.otf',
-  variable: '--font-norb-pen'
+  src: "../public/fonts/NorBPen-BoldItalic.otf",
+  variable: "--font-norb-pen",
 });
 
 export const metadata: Metadata = {
@@ -30,7 +31,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable} ${norBPen.variable}`}>
+      <Toolbar />
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} ${norBPen.variable}`}
+      >
         {children}
       </body>
     </html>
